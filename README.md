@@ -6,6 +6,8 @@
 ![image](https://github.com/user-attachments/assets/d689c551-c98e-4739-b171-3635597989a3)
 ![image](https://github.com/user-attachments/assets/3980a1bd-8748-452c-ac58-caaa840bf247)
 
+### 작성 REST API
+![image](https://github.com/user-attachments/assets/2a46f331-0058-4a85-b740-ac155e2ea6a7)
 
 
 
