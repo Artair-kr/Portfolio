@@ -35,6 +35,21 @@ https://blog.naver.com/hjs6855/223860365280
 #### 웹페이지 이미지
 https://blog.naver.com/hjs6855/223863150873
 
+# 사용 기술 스택
+- JAVA
+- React
+- TypeScript
+- Spring Boot
+- Naver Map API
+- Java Script
+- HTML
+- CSS
+- JWT
+- Git
+- Kakao Login API
+- Naver Login API
+- Daum 주소검색 API
+
 # 블로그
 https://blog.naver.com/hjs6855
 
