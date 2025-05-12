@@ -3,7 +3,11 @@
 # 참여 프로젝트
 ## 팀 프로젝트 - 찜뽕
 ### 기획 의도 : 지역을 찜을 해 그 지역 정보의 제일 가는 봉이 되자
-![image](https://github.com/user-attachments/assets/d689c551-c98e-4739-b171-3635597989a3)
+
+각 지역에 사는 지역주민의 다양하고 믿을만한 지역 정보를 모을 수 있는 게시판을 만들자!
+계정 등급 시스템을 도입해 사용자 사이에 경쟁을 부추겨 활발한 정보 갱신을 유도하자!
+지도 API를 활용 해 게시글 지역 정보와 연동시켜 유연하고 다양한 정보 열람이 가능하게 하자!
+게시판 + 계정 등급 + 지도 => 찜뽕
 
 ### 작성 REST API
 | 기능 | HTTP 메서드 | API Path | 요청 예시 |
@@ -19,13 +23,13 @@
 | 아이디 찾기 | POST | /auth/id-search | domain/auth/id-search |
 | 비밀번호 찾기 | POST | /auth/password-search | domain/auth/password-search |
 
-### 프로젝트 명세서
+#### 프로젝트 명세서
 https://github.com/Artair-kr/jjimppong-text/tree/main
 
-# 프로젝트 설명
+#### 프로젝트 설명
 https://blog.naver.com/hjs6855/223860365280
 
-# 웹페이지 이미지
+#### 웹페이지 이미지
 https://blog.naver.com/hjs6855/223863150873
 
 # 블로그
