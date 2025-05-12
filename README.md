@@ -8,16 +8,16 @@
 ### 작성 REST API
 | 기능 | HTTP 메서드 | API Path | 요청 예시 |
 |---|:---:|:---:|:---:|
-| 로그인 | String | 사용자 아이디 (영문과 숫자로만 이루어진 6자 이상 20자 이하 문자열) | O |
-| 아이디 중복 확인 | String | 사용자 아이디 (영문과 숫자로만 이루어진 6자 이상 20자 이하 문자열) | O |
-| 닉네임 중복 확인 | String | 사용자 아이디 (영문과 숫자로만 이루어진 6자 이상 20자 이하 문자열) | O |
-| 이메일 인증코드 전송 | String | 사용자 아이디 (영문과 숫자로만 이루어진 6자 이상 20자 이하 문자열) | O |
-| 이메일 인증 확인 | String | 사용자 아이디 (영문과 숫자로만 이루어진 6자 이상 20자 이하 문자열) | O |
-| 회원가입 | String | 사용자 아이디 (영문과 숫자로만 이루어진 6자 이상 20자 이하 문자열) | O |
-| sns 로그인 | String | 사용자 아이디 (영문과 숫자로만 이루어진 6자 이상 20자 이하 문자열) | O |
-| sns 회원가입(추가정보 입력) | String | 사용자 아이디 (영문과 숫자로만 이루어진 6자 이상 20자 이하 문자열) | O |
-| 아이디 찾기 | String | 사용자 아이디 (영문과 숫자로만 이루어진 6자 이상 20자 이하 문자열) | O |
-| 비밀번호 찾기 | String | 사용자 아이디 (영문과 숫자로만 이루어진 6자 이상 20자 이하 문자열) | O |
+| 로그인 | POST | /auth/sign-in | domain/auth/sign-in |
+| 아이디 중복 확인 | POST | /auth/id-check | domain/auth/id-check |
+| 닉네임 중복 확인 | POST | /auth/nickName-check | domain/auth/nickName-check |
+| 이메일 인증코드 전송 | POST | /auth/email-auth | domain/auth/email-auth |
+| 이메일 인증 확인 | POST | /auth/email-auth-check | domain/auth/email-auth-check |
+| 회원가입 | POST | /auth/sign-up | domain/auth/sign-up |
+| sns 로그인 | GET | /auth/sns/{registrationName} | domain/auth/sns/{registrationName} |
+| sns 회원가입(추가정보 입력) | POST | /auth/sns-sign-up | domain/auth/sns-sign-up |
+| 아이디 찾기 | POST | /auth/id-search | domain/auth/id-search |
+| 비밀번호 찾기 | POST | /auth/password-search | domain/auth/password-search |
 
 # 블로그
 https://blog.naver.com/hjs6855
