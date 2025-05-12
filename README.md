@@ -29,7 +29,7 @@
 #### 프로젝트 명세서
 https://github.com/Artair-kr/jjimppong-text/tree/main
 
-#### 프로젝트 설명
+#### Auth 모듈 설명
 https://blog.naver.com/hjs6855/223860365280
 
 #### 웹페이지 이미지
