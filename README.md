@@ -25,6 +25,9 @@ https://github.com/Artair-kr/jjimppong-text/tree/main
 # 프로젝트 설명
 https://blog.naver.com/hjs6855/223860365280
 
+# 웹페이지 이미지
+https://blog.naver.com/hjs6855/223863150873
+
 # 블로그
 https://blog.naver.com/hjs6855
 
