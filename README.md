@@ -1,6 +1,6 @@
-# 안녕하세요. 황섬재입니다.
+## 안녕하세요. 황섬재입니다.
 
-# 참여 프로젝트
+## 참여 프로젝트
 ## 팀 프로젝트 - 찜뽕
 ### 기획 의도 : 지역을 찜을 해 그 지역 정보의 제일 가는 봉이 되자
 
@@ -12,19 +12,15 @@
 
 게시판 + 계정 등급 + 지도 => 찜뽕
 
-### 작성 REST API
-| 기능 | HTTP 메서드 | API Path | 요청 예시 |
-|---|:---:|:---:|:---:|
-| 로그인 | POST | /auth/sign-in | domain/auth/sign-in |
-| 아이디 중복 확인 | POST | /auth/id-check | domain/auth/id-check |
-| 닉네임 중복 확인 | POST | /auth/nickName-check | domain/auth/nickName-check |
-| 이메일 인증코드 전송 | POST | /auth/email-auth | domain/auth/email-auth |
-| 이메일 인증 확인 | POST | /auth/email-auth-check | domain/auth/email-auth-check |
-| 회원가입 | POST | /auth/sign-up | domain/auth/sign-up |
-| sns 로그인 | GET | /auth/sns/{registrationName} | domain/auth/sns/{registrationName} |
-| sns 회원가입(추가정보 입력) | POST | /auth/sns-sign-up | domain/auth/sns-sign-up |
-| 아이디 찾기 | POST | /auth/id-search | domain/auth/id-search |
-| 비밀번호 찾기 | POST | /auth/password-search | domain/auth/password-search |
+#### 기여 부분
+Auth 모듈 (인증 인가)  
+
+찜뽕 프로젝트의 인증 및 인가와 관련된 REST API 모듈입니다.  
+ 
+로그인, 회원가입, 아이디, 닉네임, 이메일 중복 확인, 이메일 인증 등의 API가 포함되어 있습니다.  
+
+Auth 모듈은 인증 없이 요청할 수 있는 모듈입니다.  
+
 
 #### 프로젝트 명세서
 https://github.com/Artair-kr/jjimppong-text/tree/main
@@ -40,7 +36,6 @@ https://blog.naver.com/hjs6855/223863150873
 - React
 - TypeScript
 - Spring Boot
-- Naver Map API
 - Java Script
 - HTML
 - CSS
@@ -48,6 +43,7 @@ https://blog.naver.com/hjs6855/223863150873
 - Git
 - Kakao Login API
 - Naver Login API
+- Naver Map API
 - Daum 주소검색 API
 
 # 블로그
