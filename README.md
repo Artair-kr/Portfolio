@@ -19,6 +19,9 @@
 | 아이디 찾기 | POST | /auth/id-search | domain/auth/id-search |
 | 비밀번호 찾기 | POST | /auth/password-search | domain/auth/password-search |
 
+### 프로젝트 명세서
+https://github.com/Artair-kr/jjimppong-text/tree/main
+
 # 블로그
 https://blog.naver.com/hjs6855
 
